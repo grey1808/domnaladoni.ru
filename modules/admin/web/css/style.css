@@ -1,0 +1,406 @@
+body{
+    font-size: 16px;
+    font-family: Ubuntu, Areal, sans-serif;
+}
+h1{
+
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+p{
+
+}
+
+.btn{
+
+}
+
+a{
+
+}
+a:hover{
+
+}
+a:focus{
+
+}
+
+
+
+.font-weight-bold {
+    font-weight: 700;
+}
+.font-weight-normal {
+    font-weight: 400;
+}
+.font-weight-light {
+    font-weight: 300;
+}
+.font-italic {
+    font-style: italic;
+}
+.text-underline {
+    text-decoration: underline;
+}
+
+
+#header {
+    background-color: #4F5E90;
+    color: #ffffff;
+}
+
+#header .navbar-default{
+    background-color: #4F5E90;
+    border-color: #4F5E90;
+    margin-bottom: 0;
+}
+
+#header .navbar-default .navbar-nav > li > a{
+    color: #FEE659;
+}
+
+#header .navbar-default .navbar-brand:focus,
+#header .navbar-default .navbar-brand{
+    color: #FEE659;
+    font-weight: 600;
+}
+
+#header .navbar-default .navbar-nav > .open > a,
+#header .navbar-default .navbar-nav > .open > a:focus,
+#header .navbar-default .navbar-nav > .open > a:hover{
+    background-color: #4F5E90;
+}
+
+
+
+
+
+
+
+#content{
+
+    min-height: 100vh;
+}
+
+
+#content .menu {
+    background-color: #ececec;
+    color:  #ffffff;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 550px;
+    overflow: auto;
+}
+
+
+#content .header-h1{
+    background-color: #3CA5D5;
+    color: #ffffff;
+    padding-left: 15px;
+}
+#content .menu ul:first-child {
+    padding-left: 0;
+}
+#content .menu ul {
+    padding-left: 15px;
+}
+#content .menu li{
+    list-style-type: none;
+}
+#content .menu a{
+    text-decoration: none;
+}
+
+#content .table{
+    font-size: 14px;
+}
+#content .table tr{
+    /*cursor: pointer;*/
+}
+#content .table .btn{
+    padding: 0px 3px;
+}
+
+/*=============================breadcrumbs================================*/
+
+#breadcrumbs{
+    background-color: #f6f6f6;
+}
+#breadcrumbs ol{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#breadcrumbs ol li a{
+    color: #565656;
+}
+#breadcrumbs ol li a i{
+    margin-right: 5px;
+}
+
+
+
+/*===================================header-material================================*/
+
+#header-material{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+}
+#header-material img{
+    float: left;
+    margin-right: 10px;
+}
+#header-material .left-header-material{
+    float: left;
+    position: relative;
+    min-height: 60px;
+    background-color: #FFFFFF;
+    padding:3px 20px 3px 2px;
+    border-radius: 4px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
+
+
+
+#header-material h1{
+    color: #565656;
+    /*color: #ffffff ;*/
+    font-weight:500;
+    float: left;
+    font-size:23px;
+    /*text-shadow: 0 1px 2px rgba(0,0,0,.6);*/
+}
+
+
+#header-material button{
+    font-size: 16px;
+    padding: 10px 26px;
+    float: left;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+    border-radius: 0;
+    margin-bottom: 40px;
+
+}
+#header-material button img{
+    margin-top: 4px;
+}
+#header-material ul{
+    float: right;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+    background-color: #fff;
+}
+#header-material .nav-pills > li{
+    width: auto;
+    margin: 0;
+}
+#header-material .nav-pills > li > a{
+    border-radius: 0;
+
+}
+
+
+#header-material .dropdown-menu{
+    border-radius: 0;
+    padding: 0;
+}
+#header-material .dropdown-menu > li > a{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+#header-material .dropdown-menu > li > a:hover{
+    background-color: #6ca9d2;
+}
+
+
+#header-material .nav-pills > li.active > a
+{
+    background-color: #6ca9d2;
+}
+
+#header-material .vcenter{
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+    width: 100%; /* задали размеры блоку-родителю */
+    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
+
+
+}
+#header-material .vcenter span{
+    color: #565656;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/*.header-two */
+#search{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Форма поиска*/
+.search{
+    padding: 0;
+}
+.search .form-control{
+    padding: 22px 24px;
+    font-size: 20px;
+    height: 60px;
+}
+.search .form-control:focus {
+    border: 4px solid #bfe5ff;
+    padding: 19px 21px;
+
+}
+.search .search-btn{
+    padding: 0 10px 0 0;
+    width: 80%;
+    height: 60px;
+    background-color: #6ca9d2;
+    color: #ffffff;
+    font-size: 20px !important;
+}
+.search .search-btn img{
+    padding-right:8px;
+    padding-bottom: 3px;
+}
+.search .search-btn-div{
+    padding: 0;
+}
+
+
+.lesson-content{
+    margin-top: 20px;
+}
+
+#content{
+    padding-bottom: 20px;
+}
+#content .content-a{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/*#footer-bottom{*/
+/*    bottom: 0;*/
+/*}*/
+
+
+/*========================footer-bottom========================*/
+
+#footer-bottom{
+    height: auto;
+    background-color: #e6ebec;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-bottom:1px solid #6F6456;
+    border-top:1px solid #6F6456;
+    bottom: 0;
+}
+#footer-bottom div {
+    width: 570px;
+}
+#footer-bottom img{
+    float: left;
+}
+#footer-bottom p{
+    color: #000000;
+    margin-top: 25px;
+    margin-left:20px;
+    float: left;
+}
+
+
+
+/*=========================pagination==============================*/
+#pagination{
+    height: 150px;
+    background-color: #fff;
+    /*border-top: 2px solid #c8c6cc;*/
+}
+
+
+#pagination .pagination-div{
+    margin-top: 35px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 270px;
+}
+#pagination .pagination{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+span.dcjq-count{
+    color: green;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.badge{
+    margin-right: 10px;
+}
+
+#accordion_menu .active:last-child{
+    color: #e91e63 ;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
